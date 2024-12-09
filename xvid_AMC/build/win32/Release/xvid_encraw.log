@@ -1,0 +1,33 @@
+﻿生成启动时间为 2015/12/29 13:56:50。
+     1>项目“F:\App\成品-inter\源代码\xvid_AMC\build\win32\xvid_encraw.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Release\xvid_encraw.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\\..\\src /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D ARCH_IS_LITTLE_ENDIAN /D ARCH_IS_32BIT /D ARCH_IS_IA32 /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\examples\xvid_encraw.c
+         xvid_encraw.c
+     1>..\..\examples\xvid_encraw.c(182): warning C4005: “MAX”: 宏重定义
+                 F:\App\成品-inter\源代码\xvid_AMC\src\global.h(296) : 参见“MAX”的前一个定义
+     1>..\..\examples\xvid_encraw.c(186): warning C4005: “SWAP”: 宏重定义
+                 F:\App\成品-inter\源代码\xvid_AMC\src\global.h(301) : 参见“SWAP”的前一个定义
+     1>..\..\examples\xvid_encraw.c(839): warning C4996: 'filelength': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _filelength. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(307) : 参见“filelength”的声明
+     1>..\..\examples\xvid_encraw.c(839): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(723) : 参见“fileno”的声明
+     1>..\..\examples\xvid_encraw.c(1155): warning C4013: “getch”未定义；假设外部返回 int
+     1>..\..\examples\xvid_encraw.c(2493): warning C4020: “xvid_encore”: 实参太多
+     1>..\..\examples\xvid_encraw.c(2550): warning C4020: “xvid_encore”: 实参太多
+     1>..\..\examples\xvid_encraw.c(2722): warning C4020: “xvid_encore”: 实参太多
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin/xvid_encraw.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:bin xvidcore.dll.a odbc32.lib odbccp32.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\xvid_encraw.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\bin/xvid_encraw.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\xvid_encraw.lib" /MACHINE:X86 .\Release/xvid_encraw.obj
+         "F:\App\成品-inter\源代码\xvid_AMC\build\win32\bin\xvidcore.dll.a"
+         xvid_encraw.vcxproj -> F:\App\成品-inter\源代码\xvid_AMC\build\win32\.\bin\xvid_encraw.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\bin/xvid_encraw.exe;#1" /manifest .\Release\xvid_encraw.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“.\Release\xvid_encraw.unsuccessfulbuild”。
+         正在对“.\Release\xvid_encraw.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\App\成品-inter\源代码\xvid_AMC\build\win32\xvid_encraw.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.10

@@ -1,0 +1,17 @@
+﻿生成启动时间为 2015/9/17 12:55:35。
+     1>项目“F:\App\xvid_sm\build\win32\xvid_decraw.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\xvid_decraw.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         xvid_decraw.vcxproj -> F:\App\xvid_sm\build\win32\.\bin\xvid_decraw.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\xvid_decraw.unsuccessfulbuild”。
+         正在对“.\Debug\xvid_decraw.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\App\xvid_sm\build\win32\xvid_decraw.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.04

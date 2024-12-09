@@ -1,0 +1,28 @@
+﻿生成启动时间为 2015/12/29 13:56:46。
+     1>项目“F:\App\成品-inter\源代码\xvid_AMC\build\win32\xvid_decraw.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Release\xvid_decraw.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\\..\\src /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D ARCH_IS_LITTLE_ENDIAN /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\examples\xvid_decraw.c
+         xvid_decraw.c
+     1>..\..\examples\xvid_decraw.c(298): warning C4020: “dec_init”: 实参太多
+     1>..\..\examples\xvid_decraw.c(350): warning C4020: “dec_main”: 实参太多
+     1>..\..\examples\xvid_decraw.c(473): warning C4020: “dec_main”: 实参太多
+     1>..\..\examples\xvid_decraw.c(768): warning C4029: 声明的形参表不同于定义
+     1>..\..\examples\xvid_decraw.c(864): warning C4029: 声明的形参表不同于定义
+     1>..\..\examples\xvid_decraw.c(895): warning C4020: “xvid_decore”: 实参太多
+     1>..\..\examples\xvid_decraw.c(906): warning C4020: “xvid_decore”: 实参太多
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin/xvid_decraw.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:bin odbc32.lib odbccp32.lib xvidcore.dll.a kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\xvid_decraw.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\bin/xvid_decraw.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\xvid_decraw.lib" /MACHINE:X86 .\Release/xvid_decraw.obj
+         "F:\App\成品-inter\源代码\xvid_AMC\build\win32\bin\xvidcore.dll.a"
+         xvid_decraw.vcxproj -> F:\App\成品-inter\源代码\xvid_AMC\build\win32\.\bin\xvid_decraw.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\bin/xvid_decraw.exe;#1" /manifest .\Release\xvid_decraw.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“.\Release\xvid_decraw.unsuccessfulbuild”。
+         正在对“.\Release\xvid_decraw.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\App\成品-inter\源代码\xvid_AMC\build\win32\xvid_decraw.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.97
